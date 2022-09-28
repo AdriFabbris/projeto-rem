@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REM</title>
+
+</head>
+
+<body>
+    <header>
+        <img src="imagens/capa-rem.png" alt="">
+        <h1>PROJETO DE DIREÇÃO CRIATIVA E GAME DESIGN</h1>
+    </header>
+
+    <main>
+        <!--SINOPSE-->
+        <section>
+            <h1>SINOPSE</h1>
+            <p>O jogador acorda em sua cama mais cedo do que deveria. A sombra na janela, a porta calmamente fechada, o tic-tac silêncioso do seu relógio te contam: você está novamente preso em sua paralisia do sono.</p>
+            <p>Sua cabeça se move de um lado para o outro, seus olhos fecham e você até consegue controlar sua respiração, porém não consegue sair. A realidade e sua mente se fundem em uma só e você começa a ver coisas.</p>
+            <p>Feche os olhos, controle o medo para sobreviver até seu despertador tocar.</p>
+        </section>
+
+        <!--GAMEPLAY-->
+        <section>
+            <h1>GAMEPLAY</h1>
+            <p>O jogador controla um personagem que está tendo uma paralisia do sono e, durante esse tempo, será assombrado - ou será só sua imaginação - enquanto não pode se mover.</p>
+            <p>Para isso o jogador precisará contar com poucos movimentos para acalmar e não ser pego pelo medo ou pela terrível criatura que parece querer possuí-lo, assustá-lo ou, talvez, até matá-lo.</p>
+        </section>
+
+        <!--COMANDOS-->
+        <h1>COMANDOS</h1>
+        <section>
+            <div id="comandos">
+                <article class="comandos">
+                    <h2>OLHE AO REDOR</h2>
+                    <img src="imagens/olhe-ao-redor.png" alt="">
+                    <p>Movimente a cabeça horizontalmente para olhar ao redor</p>
+                    <div class="olhe-ao-redor">
+                        <p><img src="imagens/tecla(andar).png" alt=""><span>Teclas</span> <br> A S D W</p>
+                        <p><img src="imagens/mouse-1.png" alt=""><span>Mouse</span> <br> Movimento</p>
+                    </div>
+                </article>
+                <article class="comandos">
+                    <h2>FECHE OS OLHOS</h2>
+                    <img src="imagens/feche-os-olhos.png" alt="">
+                    <p>Feche os olhos para que as atividades pararem de acontecer</p>
+                    <div class="feche-os-olhos">
+                        <p><img src="imagens/tecla-f.png" alt=""><span>Tecla</span><br> F</p>
+                        <p><img src="imagens/mouse-2.png" alt="">Mouse<br>Botão direito</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div id="comandos">
+                <article class="comandos">
+                    <h2>CONTROLE PENSAMENTOS</h2>
+                    <img src="imagens/controle-os-pensamentos.png" alt="">
+                    <p>controle seus pensamentos no ritmo do relógio ao tomar um susto</p>
+                    <div class="pensamentos">
+                        <p><img src="imagens/space.png" alt=""><span>Tecla</span><br>Espaço</p>
+                    </div>
+                </article>
+                <article class="comandos">
+                    <h2>OU DESISTA</h2>
+                    <img src="imagens/sair.png" alt="">
+                    <p>Use o menu de pause para arrumar suas configurações ou desistir do jogo</p>
+                    <div class="desista">
+                        <p><img src="imagens/esc.png" alt=""><br><span>Tecla</span><br>Esc</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--O JOGO-->
+        <section>
+            <h1>O JOGO</h1>
+            <p>
+
+            </p>
+
+            <article>
+                <div>
+                    <ul>
+                        <li>GRADATIVAMENTE</li>
+                    </ul>
+                    <p>Algumas coisas podem acontecer com o tempo, como gavetas se abrirem, portas se mexerem ou uma cadeira de balanço começar a se mover.</p>
+                    <p>Para sobreviver a este tipo de atividade o jogador precisará fechar os olhos por um tempo e abrir novamente, assim o cenrário voltará ao normaç, porém, quanto mais tempo demorar para fechar os olhos ou abrir a\ntes que as coisas tenham se reestabelecido, faz com que a sanidade do jogador diminua.</p>
+                    <p>Permanecer com os olhos fechados por muito tempo faz com que o tempo do jogo pare, assim nunca passando de fase.</p>
+                </div>
+
+                <div>
+                    <img src="" alt="">
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <ul>
+                        <li>JUMP SCAPE</li>
+                    </ul>
+                    <p>Sombras na parede, itens caindo e até criaturas pdoem aparecer na tela do jogador, causando um grande susto. O susto será acompanhado de um SFX cpmúm de jogos de terror e SFX de respiração descontrolada e/ou batimentos cardíacos.</p>
+                    <p>Para voltar ao estado inicial, deverá controlar sua respiração e seus pensamentos com o tic-tac do relógio, batendo a tecla "space" no mesmo tempo em que ocorre o som do relógio.</p>
+                </div>
+
+                <div>
+                    <img src="" alt="">
+                </div>
+            </article>
+
+            <article>
+                <h2>BARRA DA SANIDADE</h2>
+                <p>Existe uma barra de sanidade que diminui com as atividades em que o jogador passa. Quanto menor a sanidade do jogador, maior o número de acontecimentos.</p>
+                <p>Caso a barra seja zerada, ele será pego pela entidade que está o assombrando</p>
+
+                <h2>ZERANDO A SANIDADE</h2>
+                <p>O jogador poderá diminuir sua sanidade se:</p>
+                <ol>
+                    <li>controlar errado a concentração no relógio, errando os batimentos;</li>
+                    <li>não fechar os olhos em acontecimentos gradativos;</li>
+                    <li>fechar os olhos e abrir antes que o acontecimento pare;</li>
+                    <li>não olhar para onde está vindo os sons [caso o jogador não olhe para o acontecimento antes de fechar os olhos, o mesmo irá continuar acontecendo]</li>
+                </ol>
+
+                <h2> BARRA DE SANIDADE X DIFICULDADE</h2>
+                <p>Quanto menor a dificuldade escolhida pelo jogador, maior o tempo de Sanidade</p>
+                <p>No nível fácil, ao fechar os olhos e controlar a respiração recupera, um pouco da sanidade do jogador, e a barra poderá ser vista pelo mesmo</p>
+                <p>No nível médio, a barra ainda é visível, porém o jogador não recupera a sanidade perdida, somente para de decair por um tempo</p>
+                <p>No nível difícil, além de perder a sanidade rápidamente, não é possível ver a barra</p>
+
+                <article>
+                    <div>
+                        <h2>CONDIÇÃO DE DERROTA</h2>
+                        <p>Ser pego pela "coisa" que está assombrando o REM do jogador</p>
+                    </div>
+
+                    <div>
+                        <h2>CONDIÇÃO DE VITÓRIA</h2>
+                        <p>Sobreviver até o final da fase, ou seja, 6 horas da manha do jogo.</p>
+                    </div>
+                        
+                </article>
+            </article>
+        </section>
+
+        <!--CENÁRIO-->
+        <section>
+            <img src="" alt="">
+
+            <article>
+                    <div>
+                        <h2>(1) ARMÁRIO</h2>
+                        <p>abrir e fechar<br>mão aparecer<br>bater<br>ranger<br>cair macaneta<br>olhos por uma fresta</p>
+                    </div>
+
+                    <div>
+                        <h2>(2) DEZENHOS DE CRIANÇA</h2>
+                        <p>cair<br>rasgar<br>mudar as imagens</p>
+                    </div>
+                    <div>
+                        <h2>(3) PELÚCIAS</h2>
+                        <p>cair<br>mudar de forma<br>trocar de lugar</p>
+                    </div>
+
+                    <div>
+                        <h2>(4 e 13) GAVETAS</h2>
+                        <p>abrir<br>bater com força</p>
+                    </div>
+                    <div>
+                        <h2>(5) PAREDES</h2>
+                        <p>aparecer sombrar<br>sangrar<br>aparecer raxaduras</p>
+                    </div>
+                    <div>
+                        <h2>(6) PORTA</h2>
+                        <p>abrir<br>alguém vendo tv e sumir<br>fechar ou bater<br>criatura ficar encarando da porta<br>imagens da tv mudar<br>som da tv parar<br>cenário mudar<br>ficar tudo escuro<br>fechar a porta<br>arranhados</p>
+                    </div>
+                    <div>
+                        <h2>(7) OBJETOS DA ESTANTE</h2>
+                        <p>voar na direção do jogador<br>cair objetos<br>músicas tocarem do brinquedo<br>brinquedos ligarem<br>som dos brinquedos</p>
+                    </div>
+                    <div>
+                        <h2>(8) ESPELHO</h2>
+                        <p>quebrar<br>cair algo nele<br>aparecer imagens perto da cama<br>mudar imagens<br>aparecer algo no espelho</p>
+                    </div>
+                    <div>
+                        <h2>(9) QUADRO</h2>
+                        <p>cair<br>mudar imagem=ns</p>
+                    </div>
+                    <div>
+                        <h2>(10) CADEIRA DE BALANÇO</h2>
+                        <p>balançar sozinha<br>criatura aparecer ali<br>brinquedos aparecerem na cadeira</p>
+                    </div>
+                    <div>
+                        <h2>(11) JANELA</h2>
+                        <p>sonbra de mão<br>trovão<br>quebrar<br>criatura aparecer</p>
+                    </div>
+                    <div>
+                        <h2>(12) TV</h2>
+                        <p>ligar e desligar<br>chiar<br>aárecer imagens<br>vozes falando com o jogador<br>algo sair da tv</p>
+                    </div>
+                    <div>
+                        <h2>(14) CAMA</h2>
+                        <p>mãos aparecerem<br>pelucias e brinquedos<br>criatura dentro do cobertor<br>sombra</p>
+                    </div>
+                    <div>
+                        <h2>(15) APOIO DE CAMA</h2>
+                        <p>para exmplicação de item apenas</p>
+                    </div>
+                    <div>
+                        <h2>(16) TETO</h2>
+                        <p>aparecer sombra<br>aparecer raxaduras<br>aparecer sangue<br>cair algo de lá<br>criatura ficar no teto</p>
+                    </div>
+                    <div>
+                        <h2>(17) LUZ</h2>
+                        <p>ligar e desligar<br>piscar<br>estourar<br>zumbir<br>mudar de cor</p>
+                    </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
