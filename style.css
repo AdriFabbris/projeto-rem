@@ -21,12 +21,10 @@ body {
     background-color: black;
 } 
 
-img {
-    width: 100%;
-}
 
 p {
     font-family: var(--font02);
+    font-weight: lighter;
     color: white;
     margin: 10px;
     padding: 5px;
@@ -34,6 +32,10 @@ p {
 }
 
 /* CABEÇALHO */
+
+header > img {
+    width: 100%;
+}
 
 header > h1 {
     font-family: var(--font01);
@@ -52,6 +54,7 @@ section {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 /* COMANDOS */
@@ -61,6 +64,8 @@ section {
     flex-direction: row;
     justify-content: space-around;
 }
+
+
 .comandos {
     max-width: 250px;
     margin: 20px;
@@ -87,45 +92,126 @@ section {
     text-align: center;
 }
 
+
 .olhe-ao-redor {
-    max-width: 250px;
+    max-width: 320px;
     display: flex;
     flex-direction: row;
-    text-align: center;
-}
-
-.olhe-ao-redor > p > span {
-    text-decoration: underline;
+    justify-content: space-between;
+    
 }
 
 .feche-os-olhos {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
-    text-align: center;
-}
-
-.feche-os-olhos > p > span {
-    text-decoration: underline;
+    justify-content: space-between;  
 }
 
 .pensamentos {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
-    text-align: center;
-}
-
-.pensamentos > p > span {
-    text-decoration: underline;
+    justify-content: space-between;  
 }
 
 .desista {
-    max-width: 250px;
+    max-width: 300px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.desista > p > span {
+/* O JOGO */
+
+.jogo-grad {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jogo-jump {
+    margin: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    font-size: 20px;
+    color: white;
     text-decoration: underline;
+}
+
+.o-jogo > h2 {
+    font-family: var(--font02);
+    color: var(--cor01);
+    background-color: white;
+    font-size: 1em;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+.o-jogo > p {
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+}
+
+.o-jogo > ul, li {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.fim-de-jogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.derrota {
+    margin: 10px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.derrota > h2 {
+    font-family: var(--font02);
+    color: var(--cor01);
+    background-color: white;
+    font-size: 1em;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.vitoria {
+    margin: 10px;
+    padding: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.vitoria > h2 {
+    font-family: var(--font02);
+    color: var(--cor01);
+    background-color: white;
+    font-size: 1em;
+    margin: auto;
+    width: 300px;
+    text-align: center;
 }
