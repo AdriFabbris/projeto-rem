@@ -37,7 +37,7 @@ header > img {
     width: 100%;
 }
 
-header > h1 {
+.principal {
     font-family: var(--font01);
     font-style: bold;
     font-size: 2.5em;
@@ -48,6 +48,15 @@ header > h1 {
 }
 
 /* CORPO */
+
+main > h1 {
+    font-family: var(--font01);
+    font-size: 3em;
+    text-shadow: 1px 1px 1px rgb(131, 2, 2);
+    background-image: url('imagens/fundo-h2.png');
+    background-repeat: no-repeat;
+    
+}
 
 section {
     background-color: var(--cor01);
