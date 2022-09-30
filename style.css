@@ -226,3 +226,15 @@ li {
     width: 300px;
     text-align: center;
 }
+
+/* RODAPÉ */
+
+footer {
+    background-color: var(--cor02);
+}
+
+footer > p {
+    padding: 10;
+    margin: 0;
+    text-align: center;
+}
