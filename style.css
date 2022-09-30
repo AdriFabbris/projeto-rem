@@ -26,9 +26,10 @@ p {
     font-family: var(--font02);
     font-weight: lighter;
     color: white;
-    margin: 10px;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
     text-align: justify;
+    line-height: 40px;
 }
 
 /* CABEÇALHO */
@@ -51,11 +52,11 @@ header > img {
 
 main > h1 {
     font-family: var(--font01);
-    font-size: 3em;
+    font-size: 3.5em;
     text-shadow: 1px 1px 1px rgb(131, 2, 2);
-    background-image: url('imagens/fundo-h2.png');
-    background-repeat: no-repeat;
-    
+    text-decoration: underline;
+    max-width: 1000px;
+    margin: auto;
 }
 
 section {
@@ -64,6 +65,7 @@ section {
     margin: auto;
     margin-bottom: 50px;
     border-radius: 20px;
+    padding: 10px;
 }
 
 /* COMANDOS */
@@ -161,7 +163,7 @@ li {
     background-color: white;
     font-size: 1em;
     margin: auto;
-    width: 800px;
+    max-width: 850px;
     text-align: center;
 }
 
@@ -172,7 +174,7 @@ li {
 }
 
 .o-jogo > ul, li {
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     margin-bottom: 10px;
     padding: 5px;
